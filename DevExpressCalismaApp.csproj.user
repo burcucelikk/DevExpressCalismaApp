@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChartControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ComboBoxEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmOgrenciler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ImageSlider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RibbonControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SimpleButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TextEdit-ButtonEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
