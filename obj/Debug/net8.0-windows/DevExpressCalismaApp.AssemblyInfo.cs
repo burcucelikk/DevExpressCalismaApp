@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevExpressCalismaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71657087c7c6e89ce51507066a33e2910c1b22c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93ff3ef161bcef45afe80d5779ef25219fd1a7bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevExpressCalismaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevExpressCalismaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

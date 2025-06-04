@@ -10,37 +10,7 @@
     <Compile Update="ComboBoxEdit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="DevExpressCalismaApp\Anasayfa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DevExpressCalismaApp\ChartControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DevExpressCalismaApp\ComboBoxEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DevExpressCalismaApp\FrmOgrenciler.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DevExpressCalismaApp\ImageSlider.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DevExpressCalismaApp\RibbonControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DevExpressCalismaApp\SimpleButton.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DevExpressCalismaApp\TextEdit-ButtonEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FrmOgrenciler.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="ImageSlider.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="RibbonControl.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SimpleButton.cs">
