@@ -54,7 +54,7 @@
             ribbonControl1.MaxItemId = 9;
             ribbonControl1.Name = "ribbonControl1";
             ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { ribbonPage1 });
-            ribbonControl1.Size = new Size(800, 183);
+            ribbonControl1.Size = new Size(782, 183);
             // 
             // barButtonItem1
             // 
@@ -69,6 +69,7 @@
             barButtonItem2.Id = 2;
             barButtonItem2.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem2.ImageOptions.LargeImage");
             barButtonItem2.Name = "barButtonItem2";
+            barButtonItem2.ItemClick += barButtonItem2_ItemClick;
             // 
             // barButtonItem3
             // 
@@ -141,7 +142,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(782, 523);
             Controls.Add(ribbonControl1);
             IsMdiContainer = true;
             Name = "RibbonControl";

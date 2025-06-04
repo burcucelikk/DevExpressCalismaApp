@@ -110,3 +110,6 @@ C:\Users\burcu\source\repos\DevExpressCalismaApp\obj\Debug\net8.0-windows\DevExp
 C:\Users\burcu\source\repos\DevExpressCalismaApp\obj\Debug\net8.0-windows\DevExpressCalismaApp.ComboBoxEdit.resources
 C:\Users\burcu\source\repos\DevExpressCalismaApp\obj\Debug\net8.0-windows\DevExpressCalismaApp.ImageSlider.resources
 C:\Users\burcu\source\repos\DevExpressCalismaApp\obj\Debug\net8.0-windows\DevExpressCalismaApp.ChartControl.resources
+C:\Users\burcu\source\repos\DevExpressCalismaApp\obj\Debug\net8.0-windows\DevExpressCalismaApp.FrmOgrenciler.resources
+C:\Users\burcu\source\repos\DevExpressCalismaApp\obj\Debug\net8.0-windows\DevExpressCalismaApp.RibbonControl.resources
+C:\Users\burcu\source\repos\DevExpressCalismaApp\obj\Debug\net8.0-windows\DevExpressCalismaApp.sourcelink.json

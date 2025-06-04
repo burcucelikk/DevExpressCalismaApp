@@ -16,5 +16,10 @@ namespace DevExpressCalismaApp
         {
             InitializeComponent();
         }
+
+        private void FrmOgrenciler_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
