@@ -28,15 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
             tileGroup6 = new DevExpress.XtraEditors.TileGroup();
             tileGroup1 = new DevExpress.XtraEditors.TileGroup();
             tileGroup3 = new DevExpress.XtraEditors.TileGroup();
-            tileBar1 = new DevExpress.XtraBars.Navigation.TileBar();
-            tileBarGroup2 = new DevExpress.XtraBars.Navigation.TileBarGroup();
-            tileBarItem1 = new DevExpress.XtraBars.Navigation.TileBarItem();
-            tileBarItem2 = new DevExpress.XtraBars.Navigation.TileBarItem();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
             SuspendLayout();
             // 
             // tileGroup6
@@ -51,50 +50,66 @@
             // 
             tileGroup3.Name = "tileGroup3";
             // 
-            // tileBar1
+            // button1
             // 
-            tileBar1.DropDownOptions.BeakColor = Color.Empty;
-            tileBar1.Groups.Add(tileBarGroup2);
-            tileBar1.Location = new Point(-1, 0);
-            tileBar1.MaxId = 5;
-            tileBar1.Name = "tileBar1";
-            tileBar1.ScrollMode = DevExpress.XtraEditors.TileControlScrollMode.ScrollButtons;
-            tileBar1.Size = new Size(801, 103);
-            tileBar1.TabIndex = 0;
-            tileBar1.Text = "tileBar1";
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(116, 54);
+            button1.TabIndex = 1;
+            button1.Text = "Simple Button";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // tileBarGroup2
+            // button2
             // 
-            tileBarGroup2.Items.Add(tileBarItem1);
-            tileBarGroup2.Items.Add(tileBarItem2);
-            tileBarGroup2.Name = "tileBarGroup2";
+            button2.Location = new Point(134, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 54);
+            button2.TabIndex = 2;
+            button2.Text = "Text-Button Edit";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
-            // tileBarItem1
+            // button3
             // 
-            tileBarItem1.DropDownOptions.BeakColor = Color.Empty;
-            tileItemElement1.Text = "SimpleButton";
-            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileBarItem1.Elements.Add(tileItemElement1);
-            tileBarItem1.Id = 0;
-            tileBarItem1.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Medium;
-            tileBarItem1.Name = "tileBarItem1";
+            button3.Location = new Point(256, 12);
+            button3.Name = "button3";
+            button3.Size = new Size(116, 54);
+            button3.TabIndex = 3;
+            button3.Text = "Image Slider";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
-            // tileBarItem2
+            // button4
             // 
-            tileBarItem2.DropDownOptions.BeakColor = Color.Empty;
-            tileItemElement2.Text = "Text_Button";
-            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileBarItem2.Elements.Add(tileItemElement2);
-            tileBarItem2.Id = 1;
-            tileBarItem2.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Medium;
-            tileBarItem2.Name = "tileBarItem2";
+            button4.Location = new Point(378, 12);
+            button4.Name = "button4";
+            button4.Size = new Size(116, 54);
+            button4.TabIndex = 4;
+            button4.Text = "Combo Box Edit";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(500, 12);
+            button5.Name = "button5";
+            button5.Size = new Size(116, 54);
+            button5.TabIndex = 5;
+            button5.Text = "Chart Control";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // Anasayfa
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(tileBar1);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Name = "Anasayfa";
             Text = "Anasayfa";
             ResumeLayout(false);
@@ -104,9 +119,10 @@
         private DevExpress.XtraEditors.TileGroup tileGroup6;
         private DevExpress.XtraEditors.TileGroup tileGroup1;
         private DevExpress.XtraEditors.TileGroup tileGroup3;
-        private DevExpress.XtraBars.Navigation.TileBar tileBar1;
-        private DevExpress.XtraBars.Navigation.TileBarGroup tileBarGroup2;
-        private DevExpress.XtraBars.Navigation.TileBarItem tileBarItem1;
-        private DevExpress.XtraBars.Navigation.TileBarItem tileBarItem2;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
     }
 }

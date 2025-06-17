@@ -12,7 +12,7 @@ namespace DevExpressCalismaApp
 {
     public partial class SimpleButton : Form
     {
-        
+        Anasayfa anasayfa { get; set; }
         public SimpleButton()
         {
             InitializeComponent();
@@ -34,7 +34,7 @@ namespace DevExpressCalismaApp
 
         private void simpleButton4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
     }

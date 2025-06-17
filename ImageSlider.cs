@@ -21,11 +21,29 @@ namespace DevExpressCalismaApp
 
         private void ImageSlider_Load(object sender, EventArgs e)
         {
-            for (int i= 0; i<= 10; i++){
-                string path = $@"C:\Users\burcu\source\repos\DevExpressCalismaApp\backgrounds\manzara{i}.jpg";
-                if (File.Exists(path))
-                imageSlider1.Images.Add(Image.FromFile(path));
+            LoadImagestoSlider();
+        }
+        private void LoadImagestoSlider()
+        {
+            string folderPath = @"C:\Users\burcu\source\repos\DevExpressCalismaApp\backgrounds";
+
+            if (!Directory.Exists(folderPath))
+                return;
+
+            var imageFiles = Directory.GetFiles(folderPath, "*.jpg");
+            imageSlider1.Images.Clear();
+            foreach (var imageFile in imageFiles)
+            {
+                try
+                {
+                    imageSlider1.Images.Add(Image.FromFile(imageFile));
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Resim yüklenemedi: " + ex.Message);
+                }
             }
+
         }
     }
 }
